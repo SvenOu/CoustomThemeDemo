@@ -1,0 +1,57 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+//Custom sass
+//订制基础颜色，与设计图一致
+$c1_1: #f2e9dc;
+$c1_2: #ffffff;
+$c1_3: #959595;
+$c1_4: #e7e7e7;
+$c2_1: #d72c20;
+$c2_2: #96070a;
+$c2_3: #d4334a;
+$c3_1: #d99a29;
+$c3_2: #ffcb04;
+$light:                           $c1_1 !default;
+$stable:                          $c1_2 !default;
+$positive:                        $c1_3 !default;
+$calm:                            $c1_4 !default;
+$balanced:                        $c2_1 !default;
+$energized:                       $c2_2 !default;
+$assertive:                       $c2_3 !default;
+$royal:                           $c3_1 !default;
+$dark:                            $c3_2 !default;
+
+/*按钮被按下时的背景*/
+$button-dark-active-bg:       $c1_3 !default;
+/*基础字体*/
+$font-family-base:                cursive !default;
+/*每个页面的基础背景色*/
+$base-background-color:           $c1_2 !default;
+/*连接的颜色*/
+$link-color:                       $c2_1 !default;
+/*输入框的文字颜色*/
+$input-color:                     $energized !default;
+/*输入框旁边的label的文字颜色*/
+$input-label-color:              $energized !default;
+/*输入框旁边的placeholder的文字颜色*/
+$input-color-placeholder:         $royal !default;
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
